@@ -47,17 +47,17 @@ def plot_probabilities(probabilities):
     plt.grid(True)
     plt.show()
 
-# Executie program
+# Program execution
 
 num_simulations = 1000000 
 results = monte_carlo_dice_simulation(num_simulations)
 probabilities = calculate_probabilities(results, num_simulations)
 
-# Afisare tabel cu probabilitati
+# Display table of probabilities
 print_probability_table(probabilities)
 
-# Comparatie cu probabilitatile analitice
+# Comparison with analytical probabilities
 compare_with_analytical(probabilities)
 
-# Plotare probabilitati
+# Plotting probabilities
 plot_probabilities(probabilities)
