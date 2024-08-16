@@ -1,4 +1,4 @@
-# Step 1: Implementing the Greedy Algorithm
+
 
 def greedy_algorithm(items, budget):
     # Calculate the calorie to cost ratio for each item
